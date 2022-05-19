@@ -1,0 +1,72 @@
+body{
+    background-image: url(images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo{
+    height: 100px;
+    width: 50;
+    filter: invert(0);
+    border-radius: 60px;
+    background-color: black;
+}
+
+.background{
+    height: 100%;
+    position: absolute;
+}
+
+nav{
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 500px;
+    right: 0%;
+    height: 100px;
+    
+}
+
+.contact{
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    padding: 5%;
+    left: 40%;
+
+    
+}
+
+.contact a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.contact ul li{
+    list-style: none;
+    
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.social-icons{
+    position: relative;
+    border-radius: 50px;
+    background-color: black;
+    padding: 20px;
+}
